@@ -1,6 +1,8 @@
 from discord.ext import commands
 from discord_slash import SlashCommand
 
+from lib.system import System
+
 from os import environ
 import discord
 import json
